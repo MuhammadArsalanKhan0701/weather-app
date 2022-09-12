@@ -64,7 +64,7 @@ export default function Home() {
           InputProps={{
             endAdornment: 
               <InputAdornment position="end"> 
-              <IconButton type="submit" aria-label="search"
+              <IconButton type="button" aria-label="search"
                           onClick={ () => getCurrentWeather(city) }
                           disabled={!city.length}
                           >
